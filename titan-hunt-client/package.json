@@ -1,0 +1,20 @@
+{
+  "name": "titan-hunt-client",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "build:wasm": "cd ../titan-hunt-core && wasm-pack build --target web --out-dir ../titan-hunt-client/src/wasm"
+  },
+  "dependencies": {
+    "phaser": "^3.80.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "vite": "^5.4.3"
+  }
+}

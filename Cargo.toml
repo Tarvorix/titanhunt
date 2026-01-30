@@ -1,0 +1,16 @@
+[workspace]
+resolver = "2"
+members = ["titan-hunt-core"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+authors = ["Tarvorix"]
+license = "MIT"
+
+[workspace.dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+wasm-bindgen = "0.2"
+js-sys = "0.3"
+web-sys = "0.3"

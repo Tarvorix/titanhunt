@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+titan-hunt-client/node_modules/
+
+# Build outputs
+target/
+titan-hunt-client/dist/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+
+# Rust
+Cargo.lock
+*.rs.bk
+
+# WASM build output (regenerated)
+titan-hunt-client/src/wasm/
+
+# OS
+Thumbs.db

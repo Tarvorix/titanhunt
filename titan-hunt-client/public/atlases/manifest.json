@@ -1,0 +1,205 @@
+{
+  "sheets": [
+    {
+      "name": "Angel_Absolution",
+      "base_animation": "Angel_Absolution",
+      "angles": 8,
+      "frames": 1,
+      "frame_range": [
+        0,
+        0
+      ],
+      "frame_size": {
+        "w": 512,
+        "h": 512
+      },
+      "atlas_size": {
+        "w": 512,
+        "h": 4096
+      }
+    },
+    {
+      "name": "Reaver_Titan",
+      "base_animation": "Reaver_Titan",
+      "angles": 8,
+      "frames": 1,
+      "frame_range": [
+        0,
+        0
+      ],
+      "frame_size": {
+        "w": 512,
+        "h": 512
+      },
+      "atlas_size": {
+        "w": 512,
+        "h": 4096
+      }
+    },
+    {
+      "name": "Warlord_Titan",
+      "base_animation": "Warlord_Titan",
+      "angles": 8,
+      "frames": 1,
+      "frame_range": [
+        0,
+        0
+      ],
+      "frame_size": {
+        "w": 512,
+        "h": 512
+      },
+      "atlas_size": {
+        "w": 512,
+        "h": 4096
+      }
+    },
+    {
+      "name": "baneblade",
+      "base_animation": "baneblade",
+      "angles": 8,
+      "frames": 1,
+      "frame_range": [
+        0,
+        0
+      ],
+      "frame_size": {
+        "w": 512,
+        "h": 512
+      },
+      "atlas_size": {
+        "w": 512,
+        "h": 4096
+      }
+    },
+    {
+      "name": "black_legion",
+      "base_animation": "black_legion",
+      "angles": 8,
+      "frames": 1,
+      "frame_range": [
+        0,
+        0
+      ],
+      "frame_size": {
+        "w": 512,
+        "h": 512
+      },
+      "atlas_size": {
+        "w": 512,
+        "h": 4096
+      }
+    },
+    {
+      "name": "krieg",
+      "base_animation": "krieg",
+      "angles": 8,
+      "frames": 1,
+      "frame_range": [
+        0,
+        0
+      ],
+      "frame_size": {
+        "w": 512,
+        "h": 512
+      },
+      "atlas_size": {
+        "w": 512,
+        "h": 4096
+      }
+    },
+    {
+      "name": "shadowsword",
+      "base_animation": "shadowsword",
+      "angles": 8,
+      "frames": 1,
+      "frame_range": [
+        0,
+        0
+      ],
+      "frame_size": {
+        "w": 512,
+        "h": 512
+      },
+      "atlas_size": {
+        "w": 512,
+        "h": 4096
+      }
+    },
+    {
+      "name": "shadowsword2",
+      "base_animation": "shadowsword2",
+      "angles": 8,
+      "frames": 1,
+      "frame_range": [
+        0,
+        0
+      ],
+      "frame_size": {
+        "w": 512,
+        "h": 512
+      },
+      "atlas_size": {
+        "w": 512,
+        "h": 4096
+      }
+    },
+    {
+      "name": "shadowsword3",
+      "base_animation": "shadowsword3",
+      "angles": 8,
+      "frames": 1,
+      "frame_range": [
+        0,
+        0
+      ],
+      "frame_size": {
+        "w": 512,
+        "h": 512
+      },
+      "atlas_size": {
+        "w": 512,
+        "h": 4096
+      }
+    },
+    {
+      "name": "world_eater",
+      "base_animation": "world_eater",
+      "angles": 8,
+      "frames": 1,
+      "frame_range": [
+        0,
+        0
+      ],
+      "frame_size": {
+        "w": 512,
+        "h": 512
+      },
+      "atlas_size": {
+        "w": 512,
+        "h": 4096
+      }
+    }
+  ],
+  "directions": [
+    "S",
+    "SW",
+    "W",
+    "NW",
+    "N",
+    "NE",
+    "E",
+    "SE"
+  ],
+  "direction_angles": {
+    "S": 0,
+    "SW": 1,
+    "W": 2,
+    "NW": 3,
+    "N": 4,
+    "NE": 5,
+    "E": 6,
+    "SE": 7
+  },
+  "max_texture_width": 4096
+}
