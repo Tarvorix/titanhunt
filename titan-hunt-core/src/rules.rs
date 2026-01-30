@@ -68,6 +68,8 @@ pub enum UnitType {
     Shadowsword,
     Shadowsword2,
     Shadowsword3,
+    // Infantry
+    KriegSquad,
 }
 
 impl UnitType {
@@ -79,6 +81,7 @@ impl UnitType {
             UnitType::Shadowsword => "shadowsword",
             UnitType::Shadowsword2 => "shadowsword2",
             UnitType::Shadowsword3 => "shadowsword3",
+            UnitType::KriegSquad => "krieg",
         }
     }
 
@@ -88,6 +91,7 @@ impl UnitType {
             UnitType::ReaverTitan => 6,
             UnitType::WarlordTitan => 4,
             UnitType::Shadowsword | UnitType::Shadowsword2 | UnitType::Shadowsword3 => 5,
+            UnitType::KriegSquad => 4,
         }
     }
 
@@ -97,6 +101,7 @@ impl UnitType {
             UnitType::ReaverTitan => 12,
             UnitType::WarlordTitan => 16,
             UnitType::Shadowsword | UnitType::Shadowsword2 | UnitType::Shadowsword3 => 8,
+            UnitType::KriegSquad => 2,
         }
     }
 
@@ -106,6 +111,7 @@ impl UnitType {
             UnitType::ReaverTitan => 10,
             UnitType::WarlordTitan => 14,
             UnitType::Shadowsword | UnitType::Shadowsword2 | UnitType::Shadowsword3 => 6,
+            UnitType::KriegSquad => 4,
         }
     }
 
@@ -115,6 +121,7 @@ impl UnitType {
             UnitType::ReaverTitan => 2,
             UnitType::WarlordTitan => 4,
             UnitType::Shadowsword | UnitType::Shadowsword2 | UnitType::Shadowsword3 => 0,
+            UnitType::KriegSquad => 0,
         }
     }
 
@@ -131,6 +138,7 @@ impl UnitType {
             UnitType::Shadowsword => "Shadowsword",
             UnitType::Shadowsword2 => "Shadowsword Mk II",
             UnitType::Shadowsword3 => "Shadowsword Mk III",
+            UnitType::KriegSquad => "Krieg Infantry Squad",
         }
     }
 }

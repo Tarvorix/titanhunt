@@ -56,6 +56,7 @@ impl TitanHuntEngine {
             "shadowsword" => UnitType::Shadowsword,
             "shadowsword2" => UnitType::Shadowsword2,
             "shadowsword3" => UnitType::Shadowsword3,
+            "krieg" => UnitType::KriegSquad,
             _ => return Err(JsValue::from_str(&format!("Unknown unit type: {}", unit_type))),
         };
 
