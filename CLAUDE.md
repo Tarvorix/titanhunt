@@ -148,6 +148,6 @@ wasm-pack build --target web --out-dir ../titan-hunt-client/src/wasm
 
 - Flat-top hex orientation
 - Axial coordinate system (q, r)
-- Default hex size: 60 pixels
+- Default hex size: 100 pixels (~173px hex width, scaled for 512px sprites)
 - Map origin offset: (100, 100) pixels
 

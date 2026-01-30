@@ -2,8 +2,8 @@
 
 import { Hex, PixelPos } from '../types';
 
-// Default hex size in pixels
-export const HEX_SIZE = 60;
+// Default hex size in pixels (100px gives ~173px hex width, good for 512px sprites)
+export const HEX_SIZE = 100;
 
 // Direction offsets for flat-top hexagons (matches Rust AXIAL_DIRECTIONS)
 export const AXIAL_DIRECTIONS: [number, number][] = [
