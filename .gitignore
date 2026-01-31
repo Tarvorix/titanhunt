@@ -25,8 +25,5 @@ npm-debug.log*
 Cargo.lock
 *.rs.bk
 
-# WASM build output (regenerated)
-titan-hunt-client/src/wasm/
-
 # OS
 Thumbs.db

@@ -6,6 +6,9 @@ authors.workspace = true
 license.workspace = true
 description = "Core game logic for Titan Hunt - a 40K inspired hex-based tactical game"
 
+[package.metadata.wasm-pack.profile.release]
+wasm-opt = false
+
 [lib]
 crate-type = ["cdylib", "rlib"]
 
