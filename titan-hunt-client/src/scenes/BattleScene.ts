@@ -82,11 +82,32 @@ export class BattleScene extends Phaser.Scene {
       this.mapWidth = this.mapData.width;
       this.mapHeight = this.mapData.height;
 
-      // Build tile lookup map
+      // Build tile lookup map and find coordinate bounds
       this.tileMap.clear();
+      let minQ = Infinity, maxQ = -Infinity;
+      let minR = Infinity, maxR = -Infinity;
+
       for (const tile of this.mapData.tiles) {
         this.tileMap.set(hexKey({ q: tile.q, r: tile.r }), tile);
+        minQ = Math.min(minQ, tile.q);
+        maxQ = Math.max(maxQ, tile.q);
+        minR = Math.min(minR, tile.r);
+        maxR = Math.max(maxR, tile.r);
       }
+
+      console.log(`Map bounds: q[${minQ},${maxQ}] r[${minR},${maxR}]`);
+
+      // Calculate origin offset to ensure all hexes are visible
+      // Account for negative r values by shifting origin down
+      const minY = HEX_SIZE * (3 / 2) * minR;
+      const minX = HEX_SIZE * (Math.sqrt(3) * minQ + (Math.sqrt(3) / 2) * minR);
+
+      this.hexOrigin = {
+        x: 150 - minX,
+        y: 150 - minY
+      };
+
+      console.log(`Hex origin set to: (${this.hexOrigin.x}, ${this.hexOrigin.y})`);
     }
   }
 
@@ -157,7 +178,15 @@ export class BattleScene extends Phaser.Scene {
     }
     this.terrainSprites = [];
 
-    if (!this.mapData) return;
+    if (!this.mapData) {
+      console.log('No map data, skipping terrain render');
+      return;
+    }
+
+    console.log(`Rendering terrain for ${this.mapData.tiles.length} tiles`);
+
+    let loadedCount = 0;
+    let missingCount = 0;
 
     // Render each tile
     for (const tile of this.mapData.tiles) {
@@ -170,10 +199,19 @@ export class BattleScene extends Phaser.Scene {
           const sprite = this.add.sprite(pos.x, pos.y, key);
           sprite.setDepth(DEPTH_TERRAIN);
           sprite.setOrigin(0.5, 0.5);
-          // Scale terrain tiles to match hex size (84px tiles to HEX_SIZE)
-          const scale = (HEX_SIZE * 2) / 84;
-          sprite.setScale(scale);
+          // Scale terrain tiles to match hex size
+          // MegaMek tiles are 84x72, we need to scale to fit HEX_SIZE
+          // Hex width = sqrt(3) * HEX_SIZE, hex height = 2 * HEX_SIZE
+          const hexWidth = Math.sqrt(3) * HEX_SIZE;
+          const hexHeight = 2 * HEX_SIZE;
+          sprite.setScale(hexWidth / 84, hexHeight / 72);
           this.terrainSprites.push(sprite);
+          loadedCount++;
+        } else {
+          missingCount++;
+          if (missingCount <= 5) {
+            console.warn(`Missing texture: ${key} (from ${tile.tileId})`);
+          }
         }
       }
 
@@ -184,14 +222,16 @@ export class BattleScene extends Phaser.Scene {
           const layerSprite = this.add.sprite(pos.x, pos.y, layerKey);
           layerSprite.setDepth(DEPTH_TERRAIN + 0.1);
           layerSprite.setOrigin(0.5, 0.5);
-          const scale = (HEX_SIZE * 2) / 84;
-          layerSprite.setScale(scale);
+          const hexWidth = Math.sqrt(3) * HEX_SIZE;
+          const hexHeight = 2 * HEX_SIZE;
+          layerSprite.setScale(hexWidth / 84, hexHeight / 72);
           this.terrainSprites.push(layerSprite);
+          loadedCount++;
         }
       }
     }
 
-    console.log(`Rendered ${this.terrainSprites.length} terrain sprites`);
+    console.log(`Rendered ${loadedCount} terrain sprites, ${missingCount} missing textures`);
   }
 
   private drawGrid(): void {
@@ -237,14 +277,26 @@ export class BattleScene extends Phaser.Scene {
   private setupCamera(): void {
     const camera = this.cameras.main;
 
-    // Calculate map bounds
-    const minX = -100;
-    const minY = -100;
-    const maxX = this.mapWidth * HEX_SIZE * Math.sqrt(3) + 200;
-    const maxY = this.mapHeight * HEX_SIZE * 1.5 + 200;
+    // Calculate actual map bounds based on rendered hexes
+    let minX = 0, maxX = 0, minY = 0, maxY = 0;
+
+    for (const key of this.validHexes) {
+      const [q, r] = key.split(',').map(Number);
+      const pos = this.hexToWorld({ q, r });
+      minX = Math.min(minX, pos.x - HEX_SIZE);
+      maxX = Math.max(maxX, pos.x + HEX_SIZE);
+      minY = Math.min(minY, pos.y - HEX_SIZE);
+      maxY = Math.max(maxY, pos.y + HEX_SIZE);
+    }
+
+    // Add padding
+    minX -= 100;
+    minY -= 100;
+    maxX += 100;
+    maxY += 100;
 
     camera.setBounds(minX, minY, maxX - minX, maxY - minY);
-    camera.setZoom(1);
+    camera.setZoom(0.8); // Zoom out a bit to see more of the map
 
     // Center camera on map
     const centerX = (minX + maxX) / 2;
