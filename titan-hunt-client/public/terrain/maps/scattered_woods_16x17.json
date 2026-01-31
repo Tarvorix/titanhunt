@@ -1,0 +1,3381 @@
+{
+  "id": "scattered_woods_16x17",
+  "name": "Scattered Woods 16x17",
+  "layout": "axial-flat",
+  "width": 16,
+  "height": 17,
+  "tiles": [
+    {
+      "q": 0,
+      "r": 0,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 1,
+      "r": 0,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 2,
+      "r": -1,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 3,
+      "r": -1,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_heavy_grass_c.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:2",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 4,
+      "r": -2,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 5,
+      "r": -2,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 6,
+      "r": -3,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 7,
+      "r": -3,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 8,
+      "r": -4,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 9,
+      "r": -4,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 10,
+      "r": -5,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_light_grass_b.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 11,
+      "r": -5,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "Incline/Default/Incline_Top_Grass_32.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:32"
+      ]
+    },
+    {
+      "q": 12,
+      "r": -6,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 13,
+      "r": -6,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 14,
+      "r": -7,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 15,
+      "r": -7,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 0,
+      "r": 1,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 1,
+      "r": 1,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 2,
+      "r": 0,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 3,
+      "r": 0,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_heavy_grass_a.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:2",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 4,
+      "r": -1,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 5,
+      "r": -1,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "Incline/Default/Incline_Top_Grass_33.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:33"
+      ]
+    },
+    {
+      "q": 6,
+      "r": -2,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "Incline/Default/Incline_Top_Grass_32.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:32"
+      ]
+    },
+    {
+      "q": 7,
+      "r": -2,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "Incline/Default/Incline_Top_Grass_48.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:48"
+      ]
+    },
+    {
+      "q": 8,
+      "r": -3,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 9,
+      "r": -3,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "Incline/Default/Incline_Top_Grass_33.png",
+        "saxarba/theme_grass/woods_light_grass_d.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2",
+        "incline_top:1:33"
+      ]
+    },
+    {
+      "q": 10,
+      "r": -4,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "Incline/Default/Incline_Top_Grass_33.png",
+        "saxarba/theme_grass/woods_light_grass_c.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2",
+        "incline_top:1:33"
+      ]
+    },
+    {
+      "q": 11,
+      "r": -4,
+      "terrain": "CLEAR",
+      "elevation": 1,
+      "tileId": "saxarba/theme_grass/base_grass_1.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 12,
+      "r": -5,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "Incline/Default/Incline_Top_Grass_48.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:48"
+      ]
+    },
+    {
+      "q": 13,
+      "r": -5,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "Incline/Default/Incline_Top_Grass_16.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:16"
+      ]
+    },
+    {
+      "q": 14,
+      "r": -6,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 15,
+      "r": -6,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 0,
+      "r": 2,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 1,
+      "r": 2,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 2,
+      "r": 1,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 3,
+      "r": 1,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_heavy_grass_b.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:2",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 4,
+      "r": 0,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "Incline/Default/Incline_Top_Grass_01.png",
+        "saxarba/theme_grass/woods_heavy_grass_d.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:2",
+        "foliage_elev:2",
+        "incline_top:1:01"
+      ]
+    },
+    {
+      "q": 5,
+      "r": 0,
+      "terrain": "WOODS",
+      "elevation": 1,
+      "tileId": "saxarba/theme_grass/base_grass_1.png",
+      "layers": [
+        "Incline/Default/Incline_Top_Grass_01.png",
+        "saxarba/theme_grass/woods_light_grass_b.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2",
+        "incline_top:1:01"
+      ]
+    },
+    {
+      "q": 6,
+      "r": -1,
+      "terrain": "CLEAR",
+      "elevation": 1,
+      "tileId": "saxarba/theme_grass/base_grass_1.png",
+      "layers": [
+        "Incline/Default/Incline_Top_Grass_32.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:32"
+      ]
+    },
+    {
+      "q": 7,
+      "r": -1,
+      "terrain": "CLEAR",
+      "elevation": 1,
+      "tileId": "saxarba/theme_grass/base_grass_1.png",
+      "layers": [
+        "Incline/Default/Incline_Top_Grass_48.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:48"
+      ]
+    },
+    {
+      "q": 8,
+      "r": -2,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "Incline/Default/Incline_Top_Grass_49.png",
+        "saxarba/theme_grass/woods_light_grass_f.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2",
+        "incline_top:1:49"
+      ]
+    },
+    {
+      "q": 9,
+      "r": -2,
+      "terrain": "CLEAR",
+      "elevation": 1,
+      "tileId": "saxarba/theme_grass/base_grass_1.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 10,
+      "r": -3,
+      "terrain": "CLEAR",
+      "elevation": 1,
+      "tileId": "saxarba/theme_grass/base_grass_1.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 11,
+      "r": -3,
+      "terrain": "CLEAR",
+      "elevation": 1,
+      "tileId": "saxarba/theme_grass/base_grass_1.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 12,
+      "r": -4,
+      "terrain": "CLEAR",
+      "elevation": 1,
+      "tileId": "saxarba/theme_grass/base_grass_1.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 13,
+      "r": -4,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "Incline/Default/Incline_Top_Grass_24.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:24"
+      ]
+    },
+    {
+      "q": 14,
+      "r": -5,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 15,
+      "r": -5,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 0,
+      "r": 3,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 1,
+      "r": 3,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 2,
+      "r": 2,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_light_grass_c.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 3,
+      "r": 2,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 4,
+      "r": 1,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "Incline/Default/Incline_Top_Grass_03.png",
+        "saxarba/theme_grass/woods_light_grass_f.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2",
+        "incline_top:1:03"
+      ]
+    },
+    {
+      "q": 5,
+      "r": 1,
+      "terrain": "WOODS",
+      "elevation": 1,
+      "tileId": "saxarba/theme_grass/base_grass_1.png",
+      "layers": [
+        "Incline/Default/Incline_Top_Grass_02.png",
+        "saxarba/theme_grass/woods_light_grass_a.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2",
+        "incline_top:1:02"
+      ]
+    },
+    {
+      "q": 6,
+      "r": 0,
+      "terrain": "CLEAR",
+      "elevation": 2,
+      "tileId": "saxarba/theme_grass/base_grass_2.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 7,
+      "r": 0,
+      "terrain": "CLEAR",
+      "elevation": 2,
+      "tileId": "saxarba/theme_grass/base_grass_2.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 8,
+      "r": -1,
+      "terrain": "WOODS",
+      "elevation": 1,
+      "tileId": "saxarba/theme_grass/base_grass_1.png",
+      "layers": [
+        "Incline/Default/Incline_Top_Grass_16.png",
+        "saxarba/theme_grass/woods_light_grass_c.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2",
+        "incline_top:1:16"
+      ]
+    },
+    {
+      "q": 9,
+      "r": -1,
+      "terrain": "WOODS",
+      "elevation": 1,
+      "tileId": "saxarba/theme_grass/base_grass_1.png",
+      "layers": [
+        "saxarba/theme_grass/woods_light_grass_f.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 10,
+      "r": -2,
+      "terrain": "CLEAR",
+      "elevation": 1,
+      "tileId": "saxarba/theme_grass/base_grass_1.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 11,
+      "r": -2,
+      "terrain": "CLEAR",
+      "elevation": 1,
+      "tileId": "saxarba/theme_grass/base_grass_1.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 12,
+      "r": -3,
+      "terrain": "WOODS",
+      "elevation": 1,
+      "tileId": "saxarba/theme_grass/base_grass_1.png",
+      "layers": [
+        "saxarba/theme_grass/woods_light_grass_b.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 13,
+      "r": -3,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "Incline/Default/Incline_Top_Grass_08.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:08"
+      ]
+    },
+    {
+      "q": 14,
+      "r": -4,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 15,
+      "r": -4,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 0,
+      "r": 4,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 1,
+      "r": 4,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 2,
+      "r": 3,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_light_grass_d.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 3,
+      "r": 3,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 4,
+      "r": 2,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "Incline/Default/Incline_Top_Grass_02.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:02"
+      ]
+    },
+    {
+      "q": 5,
+      "r": 2,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "Incline/Default/Incline_Top_Grass_06.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:06"
+      ]
+    },
+    {
+      "q": 6,
+      "r": 1,
+      "terrain": "CLEAR",
+      "elevation": 1,
+      "tileId": "saxarba/theme_grass/base_grass_1.png",
+      "layers": [
+        "Incline/Default/Incline_Top_Grass_06.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:06"
+      ]
+    },
+    {
+      "q": 7,
+      "r": 1,
+      "terrain": "CLEAR",
+      "elevation": 1,
+      "tileId": "saxarba/theme_grass/base_grass_1.png",
+      "layers": [
+        "Incline/Default/Incline_Top_Grass_04.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:04"
+      ]
+    },
+    {
+      "q": 8,
+      "r": 0,
+      "terrain": "CLEAR",
+      "elevation": 1,
+      "tileId": "saxarba/theme_grass/base_grass_1.png",
+      "layers": [
+        "Incline/Default/Incline_Top_Grass_08.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:08"
+      ]
+    },
+    {
+      "q": 9,
+      "r": 0,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "Incline/Default/Incline_Top_Grass_12.png",
+        "saxarba/theme_grass/woods_light_grass_d.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2",
+        "incline_top:1:12"
+      ]
+    },
+    {
+      "q": 10,
+      "r": -1,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "Incline/Default/Incline_Top_Grass_14.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:14"
+      ]
+    },
+    {
+      "q": 11,
+      "r": -1,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "Incline/Default/Incline_Top_Grass_04.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:04"
+      ]
+    },
+    {
+      "q": 12,
+      "r": -2,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "Incline/Default/Incline_Top_Grass_12.png",
+        "saxarba/theme_grass/woods_light_grass_a.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2",
+        "incline_top:1:12"
+      ]
+    },
+    {
+      "q": 13,
+      "r": -2,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_heavy_grass_a.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:2",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 14,
+      "r": -3,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 15,
+      "r": -3,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 0,
+      "r": 5,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 1,
+      "r": 5,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_light_grass_a.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 2,
+      "r": 4,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 3,
+      "r": 4,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 4,
+      "r": 3,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 5,
+      "r": 3,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_heavy_grass_d.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:2",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 6,
+      "r": 2,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "Incline/Default/Incline_Top_Grass_06.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:06"
+      ]
+    },
+    {
+      "q": 7,
+      "r": 2,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "Incline/Default/Incline_Top_Grass_04.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:04"
+      ]
+    },
+    {
+      "q": 8,
+      "r": 1,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "Incline/Default/Incline_Top_Grass_12.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:12"
+      ]
+    },
+    {
+      "q": 9,
+      "r": 1,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_light_grass_c.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 10,
+      "r": 0,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 11,
+      "r": 0,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 12,
+      "r": -1,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 13,
+      "r": -1,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_heavy_grass_b.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:2",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 14,
+      "r": -2,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 15,
+      "r": -2,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 0,
+      "r": 6,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 1,
+      "r": 6,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 2,
+      "r": 5,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 3,
+      "r": 5,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 4,
+      "r": 4,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_light_grass_c.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 5,
+      "r": 4,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 6,
+      "r": 3,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_light_grass_b.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 7,
+      "r": 3,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_light_grass_e.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 8,
+      "r": 2,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_light_grass_a.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 9,
+      "r": 2,
+      "terrain": "WATER",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/water/water_1.png"
+      ],
+      "waterDepth": 1,
+      "tags": [
+        "water:1"
+      ]
+    },
+    {
+      "q": 10,
+      "r": 1,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_light_grass_c.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 11,
+      "r": 1,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 12,
+      "r": 0,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_light_grass_f.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 13,
+      "r": 0,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_light_grass_a.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 14,
+      "r": -1,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_light_grass_b.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 15,
+      "r": -1,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 0,
+      "r": 7,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 1,
+      "r": 7,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 2,
+      "r": 6,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 3,
+      "r": 6,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_heavy_grass_c.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:2",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 4,
+      "r": 5,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_heavy_grass_c.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:2",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 5,
+      "r": 5,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 6,
+      "r": 4,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 7,
+      "r": 4,
+      "terrain": "WATER",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/water/water_1.png"
+      ],
+      "waterDepth": 1,
+      "tags": [
+        "water:1"
+      ]
+    },
+    {
+      "q": 8,
+      "r": 3,
+      "terrain": "WATER",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/water/water_1.png"
+      ],
+      "waterDepth": 1,
+      "tags": [
+        "water:1"
+      ]
+    },
+    {
+      "q": 9,
+      "r": 3,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_light_grass_a.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 10,
+      "r": 2,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_light_grass_b.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 11,
+      "r": 2,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 12,
+      "r": 1,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_light_grass_c.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 13,
+      "r": 1,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_heavy_grass_a.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:2",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 14,
+      "r": 0,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 15,
+      "r": 0,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 0,
+      "r": 8,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 1,
+      "r": 8,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_light_grass_b.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 2,
+      "r": 7,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_light_grass_d.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 3,
+      "r": 7,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_heavy_grass_d.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:2",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 4,
+      "r": 6,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_heavy_grass_b.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:2",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 5,
+      "r": 6,
+      "terrain": "WATER",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/water/water_1.png"
+      ],
+      "waterDepth": 1,
+      "tags": [
+        "water:1"
+      ]
+    },
+    {
+      "q": 6,
+      "r": 5,
+      "terrain": "WATER",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/water/water_1.png"
+      ],
+      "waterDepth": 1,
+      "tags": [
+        "water:1"
+      ]
+    },
+    {
+      "q": 7,
+      "r": 5,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_heavy_grass_d.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:2",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 8,
+      "r": 4,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_heavy_grass_b.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:2",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 9,
+      "r": 4,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 10,
+      "r": 3,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 11,
+      "r": 3,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 12,
+      "r": 2,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 13,
+      "r": 2,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_heavy_grass_d.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:2",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 14,
+      "r": 1,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_light_grass_e.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 15,
+      "r": 1,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 0,
+      "r": 9,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_light_grass_f.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 1,
+      "r": 9,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 2,
+      "r": 8,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 3,
+      "r": 8,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_light_grass_d.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 4,
+      "r": 7,
+      "terrain": "WATER",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/water/water_1.png"
+      ],
+      "waterDepth": 1,
+      "tags": [
+        "water:1"
+      ]
+    },
+    {
+      "q": 5,
+      "r": 7,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_light_grass_a.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 6,
+      "r": 6,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_light_grass_a.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 7,
+      "r": 6,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 8,
+      "r": 5,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_heavy_grass_c.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:2",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 9,
+      "r": 5,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_light_grass_c.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 10,
+      "r": 4,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 11,
+      "r": 4,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 12,
+      "r": 3,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_light_grass_e.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 13,
+      "r": 3,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 14,
+      "r": 2,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 15,
+      "r": 2,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 0,
+      "r": 10,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 1,
+      "r": 10,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 2,
+      "r": 9,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 3,
+      "r": 9,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_light_grass_e.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 4,
+      "r": 8,
+      "terrain": "WATER",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/water/water_1.png"
+      ],
+      "waterDepth": 1,
+      "tags": [
+        "water:1"
+      ]
+    },
+    {
+      "q": 5,
+      "r": 8,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 6,
+      "r": 7,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 7,
+      "r": 7,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 8,
+      "r": 6,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 9,
+      "r": 6,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_light_grass_d.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 10,
+      "r": 5,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 11,
+      "r": 5,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 12,
+      "r": 4,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_light_grass_f.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 13,
+      "r": 4,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 14,
+      "r": 3,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 15,
+      "r": 3,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 0,
+      "r": 11,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 1,
+      "r": 11,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_light_grass_b.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 2,
+      "r": 10,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 3,
+      "r": 10,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_light_grass_a.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 4,
+      "r": 9,
+      "terrain": "WATER",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/water/water_1.png"
+      ],
+      "waterDepth": 1,
+      "tags": [
+        "water:1"
+      ]
+    },
+    {
+      "q": 5,
+      "r": 9,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 6,
+      "r": 8,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 7,
+      "r": 8,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_heavy_grass_a.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:2",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 8,
+      "r": 7,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 9,
+      "r": 7,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_light_grass_a.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 10,
+      "r": 6,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 11,
+      "r": 6,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_light_grass_c.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 12,
+      "r": 5,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 13,
+      "r": 5,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 14,
+      "r": 4,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 15,
+      "r": 4,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 0,
+      "r": 12,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_light_grass_f.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 1,
+      "r": 12,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 2,
+      "r": 11,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 3,
+      "r": 11,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 4,
+      "r": 10,
+      "terrain": "WATER",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/water/water_1.png"
+      ],
+      "waterDepth": 1,
+      "tags": [
+        "water:1"
+      ]
+    },
+    {
+      "q": 5,
+      "r": 10,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_light_grass_a.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 6,
+      "r": 9,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 7,
+      "r": 9,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_heavy_grass_b.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:2",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 8,
+      "r": 8,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_heavy_grass_d.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:2",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 9,
+      "r": 8,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 10,
+      "r": 7,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 11,
+      "r": 7,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 12,
+      "r": 6,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_heavy_grass_a.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:2",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 13,
+      "r": 6,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 14,
+      "r": 5,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 15,
+      "r": 5,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 0,
+      "r": 13,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 1,
+      "r": 13,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_light_grass_d.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 2,
+      "r": 12,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_light_grass_f.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 3,
+      "r": 12,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 4,
+      "r": 11,
+      "terrain": "WATER",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/water/water_1.png"
+      ],
+      "waterDepth": 1,
+      "tags": [
+        "water:1"
+      ]
+    },
+    {
+      "q": 5,
+      "r": 11,
+      "terrain": "WATER",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/water/water_1.png"
+      ],
+      "waterDepth": 1,
+      "tags": [
+        "water:1"
+      ]
+    },
+    {
+      "q": 6,
+      "r": 10,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_light_grass_d.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 7,
+      "r": 10,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_light_grass_a.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 8,
+      "r": 9,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 9,
+      "r": 9,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 10,
+      "r": 8,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_light_grass_f.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 11,
+      "r": 8,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 12,
+      "r": 7,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_light_grass_c.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 13,
+      "r": 7,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_heavy_grass_c.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:2",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 14,
+      "r": 6,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 15,
+      "r": 6,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 0,
+      "r": 14,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 1,
+      "r": 14,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 2,
+      "r": 13,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_light_grass_a.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 3,
+      "r": 13,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_heavy_grass_a.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:2",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 4,
+      "r": 12,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_light_grass_f.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 5,
+      "r": 12,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 6,
+      "r": 11,
+      "terrain": "WATER",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/water/water_1.png"
+      ],
+      "waterDepth": 1,
+      "tags": [
+        "water:1"
+      ]
+    },
+    {
+      "q": 7,
+      "r": 11,
+      "terrain": "WATER",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/water/water_1.png"
+      ],
+      "waterDepth": 1,
+      "tags": [
+        "water:1"
+      ]
+    },
+    {
+      "q": 8,
+      "r": 10,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 9,
+      "r": 10,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 10,
+      "r": 9,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 11,
+      "r": 9,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 12,
+      "r": 8,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_light_grass_b.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 13,
+      "r": 8,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_heavy_grass_d.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:2",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 14,
+      "r": 7,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 15,
+      "r": 7,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 0,
+      "r": 15,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 1,
+      "r": 15,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 2,
+      "r": 14,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 3,
+      "r": 14,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_heavy_grass_b.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:2",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 4,
+      "r": 13,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_heavy_grass_b.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:2",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 5,
+      "r": 13,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_light_grass_d.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 6,
+      "r": 12,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_light_grass_b.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 7,
+      "r": 12,
+      "terrain": "WATER",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/water/water_1.png"
+      ],
+      "waterDepth": 1,
+      "tags": [
+        "water:1"
+      ]
+    },
+    {
+      "q": 8,
+      "r": 11,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 9,
+      "r": 11,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 10,
+      "r": 10,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 11,
+      "r": 10,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 12,
+      "r": 9,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 13,
+      "r": 9,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 14,
+      "r": 8,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/theme_grass/woods_light_grass_d.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 15,
+      "r": 8,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 0,
+      "r": 16,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 1,
+      "r": 16,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 2,
+      "r": 15,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 3,
+      "r": 15,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 4,
+      "r": 14,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 5,
+      "r": 14,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 6,
+      "r": 13,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 7,
+      "r": 13,
+      "terrain": "WATER",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [
+        "saxarba/water/water_1.png"
+      ],
+      "waterDepth": 1,
+      "tags": [
+        "water:1"
+      ]
+    },
+    {
+      "q": 8,
+      "r": 12,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 9,
+      "r": 12,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 10,
+      "r": 11,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 11,
+      "r": 11,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 12,
+      "r": 10,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 13,
+      "r": 10,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 14,
+      "r": 9,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 15,
+      "r": 9,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/theme_grass/base_grass_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    }
+  ]
+}

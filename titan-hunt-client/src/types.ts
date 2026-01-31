@@ -114,3 +114,28 @@ export interface AtlasManifest {
   direction_angles: Record<string, number>;
   max_texture_width: number;
 }
+
+// Terrain types (matches StrikeMek/MegaMek)
+export type TerrainType = 'CLEAR' | 'WOODS' | 'ROUGH' | 'WATER' | 'PAVEMENT' | 'BUILDING' | 'RUBBLE';
+
+// Map tile from JSON
+export interface MapTile {
+  q: number;
+  r: number;
+  terrain: TerrainType;
+  elevation: number;
+  tileId: string;
+  layers: string[];
+  waterDepth: number;
+  tags: string[];
+}
+
+// Map data from JSON
+export interface MapData {
+  id: string;
+  name: string;
+  layout: string;
+  width: number;
+  height: number;
+  tiles: MapTile[];
+}

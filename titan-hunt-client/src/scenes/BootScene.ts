@@ -1,10 +1,12 @@
 // Boot scene - loads game assets
 
 import Phaser from 'phaser';
-import { AtlasManifest } from '../types';
+import { AtlasManifest, MapData } from '../types';
 
 export class BootScene extends Phaser.Scene {
   private manifest: AtlasManifest | null = null;
+  private mapData: MapData | null = null;
+  private loadedImages: Set<string> = new Set();
 
   constructor() {
     super({ key: 'BootScene' });
@@ -49,6 +51,9 @@ export class BootScene extends Phaser.Scene {
     // Load the atlas manifest
     this.load.json('manifest', 'atlases/manifest.json');
 
+    // Load the default map
+    this.load.json('mapData', 'terrain/maps/grasslands_foothills_16x17.json');
+
     // Load all sprite atlases from the atlases folder
     const atlases = [
       'shadowsword',
@@ -71,13 +76,56 @@ export class BootScene extends Phaser.Scene {
   create(): void {
     // Get the loaded manifest
     this.manifest = this.cache.json.get('manifest') as AtlasManifest;
+    this.mapData = this.cache.json.get('mapData') as MapData;
 
     if (this.manifest) {
       console.log('Loaded atlas manifest:', this.manifest);
       console.log(`Found ${this.manifest.sheets.length} sprite sheets`);
     }
 
-    // Transition to the battle scene
-    this.scene.start('BattleScene', { manifest: this.manifest });
+    if (this.mapData) {
+      console.log('Loaded map:', this.mapData.name);
+      console.log(`Map size: ${this.mapData.width}x${this.mapData.height}`);
+
+      // Load terrain images then start battle scene
+      this.loadTerrainImages();
+    } else {
+      // No map data, start battle scene without terrain
+      this.scene.start('BattleScene', { manifest: this.manifest, mapData: null });
+    }
+  }
+
+  private loadTerrainImages(): void {
+    if (!this.mapData) return;
+
+    // Collect unique image paths
+    const images = new Set<string>();
+    for (const tile of this.mapData.tiles) {
+      if (tile.tileId) {
+        images.add(tile.tileId);
+      }
+      for (const layer of tile.layers) {
+        images.add(layer);
+      }
+    }
+
+    console.log(`Loading ${images.size} terrain images...`);
+
+    // Load each image
+    for (const imagePath of images) {
+      const key = 'hex_' + imagePath.replace(/[\/\.]/g, '_');
+      if (!this.textures.exists(key)) {
+        this.load.image(key, `terrain/hexes/${imagePath}`);
+        this.loadedImages.add(imagePath);
+      }
+    }
+
+    // Start loading and transition when complete
+    this.load.once('complete', () => {
+      console.log('Terrain images loaded');
+      this.scene.start('BattleScene', { manifest: this.manifest, mapData: this.mapData });
+    });
+
+    this.load.start();
   }
 }
