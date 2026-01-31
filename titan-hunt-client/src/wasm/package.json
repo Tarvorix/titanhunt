@@ -1,0 +1,20 @@
+{
+  "name": "titan-hunt-core",
+  "type": "module",
+  "collaborators": [
+    "Tarvorix"
+  ],
+  "description": "Core game logic for Titan Hunt - a 40K inspired hex-based tactical game",
+  "version": "0.1.0",
+  "license": "MIT",
+  "files": [
+    "titan_hunt_core_bg.wasm",
+    "titan_hunt_core.js",
+    "titan_hunt_core.d.ts"
+  ],
+  "main": "titan_hunt_core.js",
+  "types": "titan_hunt_core.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}

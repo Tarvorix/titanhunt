@@ -1,0 +1,32 @@
+/* tslint:disable */
+/* eslint-disable */
+export const memory: WebAssembly.Memory;
+export const __wbg_titanhuntengine_free: (a: number, b: number) => void;
+export const init: () => void;
+export const titanhuntengine_addUnit: (a: number, b: number, c: number, d: number, e: number, f: number, g: number, h: number) => [number, number];
+export const titanhuntengine_endPhase: (a: number) => [number, number, number];
+export const titanhuntengine_endTurn: (a: number) => [number, number, number];
+export const titanhuntengine_findPath: (a: number, b: number, c: number, d: number) => [number, number, number];
+export const titanhuntengine_getActivePlayer: (a: number) => number;
+export const titanhuntengine_getCurrentPhase: (a: number) => [number, number];
+export const titanhuntengine_getCurrentTurn: (a: number) => number;
+export const titanhuntengine_getMapHexes: (a: number) => [number, number, number];
+export const titanhuntengine_getMapSize: (a: number) => [number, number, number];
+export const titanhuntengine_getReachableHexes: (a: number, b: number) => [number, number, number];
+export const titanhuntengine_getSelectedUnit: (a: number) => number;
+export const titanhuntengine_getState: (a: number) => [number, number, number];
+export const titanhuntengine_getUnits: (a: number) => [number, number, number];
+export const titanhuntengine_hexToPixel: (a: number, b: number, c: number, d: number) => [number, number, number];
+export const titanhuntengine_moveUnit: (a: number, b: number, c: any, d: number) => [number, number, number];
+export const titanhuntengine_new: (a: number, b: number) => number;
+export const titanhuntengine_pixelToHex: (a: number, b: number, c: number, d: number) => [number, number, number];
+export const titanhuntengine_selectUnit: (a: number, b: number) => void;
+export const titanhuntengine_startGame: (a: number) => void;
+export const __wbindgen_malloc: (a: number, b: number) => number;
+export const __wbindgen_realloc: (a: number, b: number, c: number, d: number) => number;
+export const __wbindgen_exn_store: (a: number) => void;
+export const __externref_table_alloc: () => number;
+export const __wbindgen_externrefs: WebAssembly.Table;
+export const __wbindgen_free: (a: number, b: number, c: number) => void;
+export const __externref_table_dealloc: (a: number) => void;
+export const __wbindgen_start: () => void;
