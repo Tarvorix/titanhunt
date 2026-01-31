@@ -174,8 +174,11 @@ export class BattleScene extends Phaser.Scene {
         const dx = pointer.x - this.dragStartX;
         const dy = pointer.y - this.dragStartY;
 
+        // Use larger threshold for touch to avoid accidental drags
+        const threshold = pointer.wasTouch ? 20 : 8;
+
         // Only start dragging if moved more than threshold
-        if (Math.abs(dx) > 8 || Math.abs(dy) > 8) {
+        if (Math.abs(dx) > threshold || Math.abs(dy) > threshold) {
           this.isDragging = true;
           this.cameras.main.scrollX = this.cameraStartX - dx;
           this.cameras.main.scrollY = this.cameraStartY - dy;
