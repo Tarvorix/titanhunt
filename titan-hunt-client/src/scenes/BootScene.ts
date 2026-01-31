@@ -56,6 +56,7 @@ export class BootScene extends Phaser.Scene {
       'shadowsword3',
       'Reaver_Titan',
       'Warlord_Titan',
+      'krieg',
     ];
 
     for (const atlas of atlases) {
