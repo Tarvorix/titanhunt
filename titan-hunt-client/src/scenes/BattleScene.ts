@@ -174,8 +174,11 @@ export class BattleScene extends Phaser.Scene {
         const dx = pointer.x - this.dragStartX;
         const dy = pointer.y - this.dragStartY;
 
+        // Use larger threshold for touch to avoid accidental drags
+        const threshold = pointer.wasTouch ? 20 : 8;
+
         // Only start dragging if moved more than threshold
-        if (Math.abs(dx) > 8 || Math.abs(dy) > 8) {
+        if (Math.abs(dx) > threshold || Math.abs(dy) > threshold) {
           this.isDragging = true;
           this.cameras.main.scrollX = this.cameraStartX - dx;
           this.cameras.main.scrollY = this.cameraStartY - dy;
@@ -573,6 +576,29 @@ export class BattleScene extends Phaser.Scene {
       is_titan: false,
     });
 
+    this.units.push({
+      id: 6,
+      unit_type: 'krieg',
+      display_name: 'Krieg Infantry Squad',
+      owner: 1,
+      q: 1,
+      r: 9,
+      facing: Facing.East,
+      sprite_frame: 'krieg_E_0000',
+      armor: 2,
+      max_armor: 2,
+      structure: 4,
+      max_structure: 4,
+      void_shields: 0,
+      max_void_shields: 0,
+      movement_remaining: 4,
+      max_movement: 4,
+      has_moved: false,
+      has_attacked: false,
+      is_destroyed: false,
+      is_titan: false,
+    });
+
     // Add Player 2 units (top right)
     this.units.push({
       id: 4,
@@ -614,6 +640,29 @@ export class BattleScene extends Phaser.Scene {
       max_void_shields: 0,
       movement_remaining: 5,
       max_movement: 5,
+      has_moved: false,
+      has_attacked: false,
+      is_destroyed: false,
+      is_titan: false,
+    });
+
+    this.units.push({
+      id: 7,
+      unit_type: 'krieg',
+      display_name: 'Krieg Infantry Squad',
+      owner: 2,
+      q: 10,
+      r: 0,
+      facing: Facing.Southwest,
+      sprite_frame: 'krieg_SW_0000',
+      armor: 2,
+      max_armor: 2,
+      structure: 4,
+      max_structure: 4,
+      void_shields: 0,
+      max_void_shields: 0,
+      movement_remaining: 4,
+      max_movement: 4,
       has_moved: false,
       has_attacked: false,
       is_destroyed: false,
