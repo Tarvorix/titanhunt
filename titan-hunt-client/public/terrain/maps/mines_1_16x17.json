@@ -1,0 +1,3690 @@
+{
+  "id": "mines_1_16x17",
+  "name": "Mines 1 16x17",
+  "layout": "axial-flat",
+  "width": 16,
+  "height": 17,
+  "tiles": [
+    {
+      "q": 0,
+      "r": 0,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 1,
+      "r": 0,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_32.png",
+        "High_Incline/Desert/High_Incline_Top_01.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:32",
+        "incline_high_top:1:01"
+      ]
+    },
+    {
+      "q": 2,
+      "r": -1,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "High_Incline/Desert/High_Incline_Top_33.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_high_top:1:33"
+      ]
+    },
+    {
+      "q": 3,
+      "r": -1,
+      "terrain": "CLEAR",
+      "elevation": 2,
+      "tileId": "saxarba/base/base_default_2.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_32.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:32"
+      ]
+    },
+    {
+      "q": 4,
+      "r": -2,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "High_Incline/Desert/High_Incline_Top_49.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_high_top:1:49"
+      ]
+    },
+    {
+      "q": 5,
+      "r": -2,
+      "terrain": "CLEAR",
+      "elevation": 2,
+      "tileId": "saxarba/base/base_default_2.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 6,
+      "r": -3,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "High_Incline/Desert/High_Incline_Top_48.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_high_top:1:48"
+      ]
+    },
+    {
+      "q": 7,
+      "r": -3,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "High_Incline/Desert/High_Incline_Top_16.png",
+        "Cliff/Cliff_Bottom/Cliff_Bottom_33.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_high_top:1:16",
+        "cliff_bottom:1:33"
+      ]
+    },
+    {
+      "q": 8,
+      "r": -4,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Cliff/Cliff_Bottom/Cliff_Bottom_33.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "cliff_bottom:1:33"
+      ]
+    },
+    {
+      "q": 9,
+      "r": -4,
+      "terrain": "CLEAR",
+      "elevation": 3,
+      "tileId": "saxarba/base/base_default_3.png",
+      "layers": [
+        "Cliff/Cliff_Top/Cliff_Top_08.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "cliff_top:1:08"
+      ]
+    },
+    {
+      "q": 10,
+      "r": -5,
+      "terrain": "WOODS",
+      "elevation": 3,
+      "tileId": "saxarba/base/base_default_3.png",
+      "layers": [
+        "saxarba/vegetation/woods_light_f.png",
+        "saxarba/theme_grass/woods_light_grass_b.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 11,
+      "r": -5,
+      "terrain": "CLEAR",
+      "elevation": 2,
+      "tileId": "saxarba/base/base_default_2.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_57.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:57"
+      ]
+    },
+    {
+      "q": 12,
+      "r": -6,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_01.png",
+        "High_Incline/Desert/High_Incline_Top_16.png",
+        "Cliff/Cliff_Bottom/Cliff_Bottom_32.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:01",
+        "incline_high_top:1:16",
+        "cliff_bottom:1:32"
+      ]
+    },
+    {
+      "q": 13,
+      "r": -6,
+      "terrain": "CLEAR",
+      "elevation": 1,
+      "tileId": "saxarba/base/base_default_1.png",
+      "layers": [
+        "High_Incline/Desert/High_Incline_Top_48.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_high_top:1:48"
+      ]
+    },
+    {
+      "q": 14,
+      "r": -7,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_16.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:16"
+      ]
+    },
+    {
+      "q": 15,
+      "r": -7,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 0,
+      "r": 1,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_01.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:01"
+      ]
+    },
+    {
+      "q": 1,
+      "r": 1,
+      "terrain": "WOODS",
+      "elevation": 1,
+      "tileId": "saxarba/base/base_default_1.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_02.png",
+        "High_Incline/Desert/High_Incline_Top_33.png",
+        "saxarba/vegetation/woods_light_a.png",
+        "saxarba/theme_grass/woods_light_grass_e.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2",
+        "incline_top:1:02",
+        "incline_high_top:1:33"
+      ]
+    },
+    {
+      "q": 2,
+      "r": 0,
+      "terrain": "CLEAR",
+      "elevation": 2,
+      "tileId": "saxarba/base/base_default_2.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_33.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:33"
+      ]
+    },
+    {
+      "q": 3,
+      "r": 0,
+      "terrain": "CLEAR",
+      "elevation": 3,
+      "tileId": "saxarba/base/base_default_3.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 4,
+      "r": -1,
+      "terrain": "CLEAR",
+      "elevation": 2,
+      "tileId": "saxarba/base/base_default_2.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_16.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:16"
+      ]
+    },
+    {
+      "q": 5,
+      "r": -1,
+      "terrain": "CLEAR",
+      "elevation": 2,
+      "tileId": "saxarba/base/base_default_2.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_01.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:01"
+      ]
+    },
+    {
+      "q": 6,
+      "r": -2,
+      "terrain": "CLEAR",
+      "elevation": 2,
+      "tileId": "saxarba/base/base_default_2.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_33.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:33"
+      ]
+    },
+    {
+      "q": 7,
+      "r": -2,
+      "terrain": "CLEAR",
+      "elevation": 3,
+      "tileId": "saxarba/base/base_default_3.png",
+      "layers": [
+        "Cliff/Cliff_Top/Cliff_Top_04.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "cliff_top:1:04"
+      ]
+    },
+    {
+      "q": 8,
+      "r": -3,
+      "terrain": "CLEAR",
+      "elevation": 3,
+      "tileId": "saxarba/base/base_default_3.png",
+      "layers": [
+        "Cliff/Cliff_Top/Cliff_Top_12.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "cliff_top:1:12"
+      ]
+    },
+    {
+      "q": 9,
+      "r": -3,
+      "terrain": "WOODS",
+      "elevation": 3,
+      "tileId": "saxarba/base/base_default_3.png",
+      "layers": [
+        "Cliff/Cliff_Top/Cliff_Top_01.png",
+        "saxarba/vegetation/woods_light_b.png",
+        "saxarba/theme_grass/woods_light_grass_d.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2",
+        "cliff_top:1:01"
+      ]
+    },
+    {
+      "q": 10,
+      "r": -4,
+      "terrain": "WOODS",
+      "elevation": 3,
+      "tileId": "saxarba/base/base_default_3.png",
+      "layers": [
+        "Cliff/Cliff_Top/Cliff_Top_32.png",
+        "saxarba/vegetation/woods_light_e.png",
+        "saxarba/theme_grass/woods_light_grass_c.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2",
+        "cliff_top:1:32"
+      ]
+    },
+    {
+      "q": 11,
+      "r": -4,
+      "terrain": "WOODS",
+      "elevation": 3,
+      "tileId": "saxarba/base/base_default_3.png",
+      "layers": [
+        "Cliff/Cliff_Top/Cliff_Top_48.png",
+        "saxarba/vegetation/woods_light_d.png",
+        "saxarba/theme_grass/woods_light_grass_f.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2",
+        "cliff_top:1:48"
+      ]
+    },
+    {
+      "q": 12,
+      "r": -5,
+      "terrain": "WOODS",
+      "elevation": 3,
+      "tileId": "saxarba/base/base_default_3.png",
+      "layers": [
+        "Cliff/Cliff_Top/Cliff_Top_04.png",
+        "saxarba/vegetation/woods_light_d.png",
+        "saxarba/theme_grass/woods_light_grass_b.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2",
+        "cliff_top:1:04"
+      ]
+    },
+    {
+      "q": 13,
+      "r": -5,
+      "terrain": "CLEAR",
+      "elevation": 3,
+      "tileId": "saxarba/base/base_default_3.png",
+      "layers": [
+        "Cliff/Cliff_Top/Cliff_Top_02.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "cliff_top:1:02"
+      ]
+    },
+    {
+      "q": 14,
+      "r": -6,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_08.png",
+        "High_Incline/Desert/High_Incline_Top_32.png",
+        "Cliff/Cliff_Bottom/Cliff_Bottom_16.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:08",
+        "incline_high_top:1:32",
+        "cliff_bottom:1:16"
+      ]
+    },
+    {
+      "q": 15,
+      "r": -6,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "High_Incline/Desert/High_Incline_Top_16.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_high_top:1:16"
+      ]
+    },
+    {
+      "q": 0,
+      "r": 2,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_02.png",
+        "High_Incline/Desert/High_Incline_Top_32.png",
+        "Cliff/Cliff_Bottom/Cliff_Bottom_01.png",
+        "saxarba/vegetation/woods_light_a.png",
+        "saxarba/theme_grass/woods_light_grass_c.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2",
+        "incline_top:1:02",
+        "incline_high_top:1:32",
+        "cliff_bottom:1:01"
+      ]
+    },
+    {
+      "q": 1,
+      "r": 2,
+      "terrain": "CLEAR",
+      "elevation": 3,
+      "tileId": "saxarba/base/base_default_3.png",
+      "layers": [
+        "Cliff/Cliff_Top/Cliff_Top_08.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "cliff_top:1:08"
+      ]
+    },
+    {
+      "q": 2,
+      "r": 1,
+      "terrain": "CLEAR",
+      "elevation": 3,
+      "tileId": "saxarba/base/base_default_3.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 3,
+      "r": 1,
+      "terrain": "WOODS",
+      "elevation": 3,
+      "tileId": "saxarba/base/base_default_3.png",
+      "layers": [
+        "Cliff/Cliff_Top/Cliff_Top_01.png",
+        "saxarba/vegetation/woods_light_c.png",
+        "saxarba/theme_grass/woods_light_grass_a.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2",
+        "cliff_top:1:01"
+      ]
+    },
+    {
+      "q": 4,
+      "r": 0,
+      "terrain": "CLEAR",
+      "elevation": 2,
+      "tileId": "saxarba/base/base_default_2.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_24.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:24"
+      ]
+    },
+    {
+      "q": 5,
+      "r": 0,
+      "terrain": "CLEAR",
+      "elevation": 1,
+      "tileId": "saxarba/base/base_default_1.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_13.png",
+        "High_Incline/Desert/High_Incline_Top_02.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:13",
+        "incline_high_top:1:02"
+      ]
+    },
+    {
+      "q": 6,
+      "r": -1,
+      "terrain": "CLEAR",
+      "elevation": 3,
+      "tileId": "saxarba/base/base_default_3.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 7,
+      "r": -1,
+      "terrain": "WOODS",
+      "elevation": 3,
+      "tileId": "saxarba/base/base_default_3.png",
+      "layers": [
+        "saxarba/vegetation/woods_light_f.png",
+        "saxarba/theme_grass/woods_light_grass_f.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 8,
+      "r": -2,
+      "terrain": "WOODS",
+      "elevation": 3,
+      "tileId": "saxarba/base/base_default_3.png",
+      "layers": [
+        "saxarba/vegetation/woods_light_b.png",
+        "saxarba/theme_grass/woods_light_grass_f.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 9,
+      "r": -2,
+      "terrain": "CLEAR",
+      "elevation": 3,
+      "tileId": "saxarba/base/base_default_3.png",
+      "layers": [
+        "Cliff/Cliff_Top/Cliff_Top_03.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "cliff_top:1:03"
+      ]
+    },
+    {
+      "q": 10,
+      "r": -3,
+      "terrain": "CLEAR",
+      "elevation": -2,
+      "tileId": "saxarba/base/base_default_-2.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_01.png",
+        "Cliff/Cliff_Bottom/Cliff_Bottom_30.png",
+        "saxarba/roads/road09.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "road:1:9",
+        "incline_top:1:01",
+        "cliff_bottom:1:30"
+      ]
+    },
+    {
+      "q": 11,
+      "r": -3,
+      "terrain": "CLEAR",
+      "elevation": -1,
+      "tileId": "saxarba/base/base_default_-1.png",
+      "layers": [
+        "Cliff/Cliff_Bottom/Cliff_Bottom_07.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "cliff_bottom:1:07"
+      ]
+    },
+    {
+      "q": 12,
+      "r": -4,
+      "terrain": "CLEAR",
+      "elevation": 3,
+      "tileId": "saxarba/base/base_default_3.png",
+      "layers": [
+        "Cliff/Cliff_Top/Cliff_Top_16.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "cliff_top:1:16"
+      ]
+    },
+    {
+      "q": 13,
+      "r": -4,
+      "terrain": "WOODS",
+      "elevation": 2,
+      "tileId": "saxarba/base/base_default_2.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_12.png",
+        "saxarba/vegetation/woods_light_d.png",
+        "saxarba/theme_grass/woods_light_grass_f.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2",
+        "incline_top:1:12"
+      ]
+    },
+    {
+      "q": 14,
+      "r": -5,
+      "terrain": "CLEAR",
+      "elevation": 2,
+      "tileId": "saxarba/base/base_default_2.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_08.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:08"
+      ]
+    },
+    {
+      "q": 15,
+      "r": -5,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "High_Incline/Desert/High_Incline_Top_24.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_high_top:1:24"
+      ]
+    },
+    {
+      "q": 0,
+      "r": 3,
+      "terrain": "CLEAR",
+      "elevation": 2,
+      "tileId": "saxarba/base/base_default_2.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_03.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:03"
+      ]
+    },
+    {
+      "q": 1,
+      "r": 3,
+      "terrain": "WOODS",
+      "elevation": 3,
+      "tileId": "saxarba/base/base_default_3.png",
+      "layers": [
+        "Cliff/Cliff_Top/Cliff_Top_01.png",
+        "saxarba/vegetation/woods_light_a.png",
+        "saxarba/theme_grass/woods_light_grass_c.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2",
+        "cliff_top:1:01"
+      ]
+    },
+    {
+      "q": 2,
+      "r": 2,
+      "terrain": "WOODS",
+      "elevation": 3,
+      "tileId": "saxarba/base/base_default_3.png",
+      "layers": [
+        "Cliff/Cliff_Top/Cliff_Top_32.png",
+        "saxarba/vegetation/woods_light_e.png",
+        "saxarba/theme_grass/woods_light_grass_c.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2",
+        "cliff_top:1:32"
+      ]
+    },
+    {
+      "q": 3,
+      "r": 2,
+      "terrain": "WOODS",
+      "elevation": 3,
+      "tileId": "saxarba/base/base_default_3.png",
+      "layers": [
+        "Cliff/Cliff_Top/Cliff_Top_51.png",
+        "saxarba/vegetation/woods_light_f.png",
+        "saxarba/theme_grass/woods_light_grass_b.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2",
+        "cliff_top:1:51"
+      ]
+    },
+    {
+      "q": 4,
+      "r": 1,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_02.png",
+        "High_Incline/Desert/High_Incline_Top_04.png",
+        "Cliff/Cliff_Bottom/Cliff_Bottom_24.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:02",
+        "incline_high_top:1:04",
+        "cliff_bottom:1:24"
+      ]
+    },
+    {
+      "q": 5,
+      "r": 1,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_04.png",
+        "High_Incline/Desert/High_Incline_Top_03.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:04",
+        "incline_high_top:1:03"
+      ]
+    },
+    {
+      "q": 6,
+      "r": 0,
+      "terrain": "CLEAR",
+      "elevation": 2,
+      "tileId": "saxarba/base/base_default_2.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_07.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:07"
+      ]
+    },
+    {
+      "q": 7,
+      "r": 0,
+      "terrain": "CLEAR",
+      "elevation": 3,
+      "tileId": "saxarba/base/base_default_3.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 8,
+      "r": -1,
+      "terrain": "WOODS",
+      "elevation": 3,
+      "tileId": "saxarba/base/base_default_3.png",
+      "layers": [
+        "saxarba/vegetation/woods_light_e.png",
+        "saxarba/theme_grass/woods_light_grass_c.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 9,
+      "r": -1,
+      "terrain": "CLEAR",
+      "elevation": 2,
+      "tileId": "saxarba/base/base_default_2.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_12.png",
+        "Cliff/Cliff_Top/Cliff_Top_35.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:12",
+        "cliff_top:1:35"
+      ]
+    },
+    {
+      "q": 10,
+      "r": -2,
+      "terrain": "CLEAR",
+      "elevation": -2,
+      "tileId": "saxarba/base/base_default_-2.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_35.png",
+        "Cliff/Cliff_Bottom/Cliff_Bottom_24.png",
+        "saxarba/roads/road09.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "road:1:9",
+        "incline_top:1:35",
+        "cliff_bottom:1:24"
+      ]
+    },
+    {
+      "q": 11,
+      "r": -2,
+      "terrain": "CLEAR",
+      "elevation": -1,
+      "tileId": "saxarba/base/base_default_-1.png",
+      "layers": [
+        "High_Incline/Desert/High_Incline_Top_01.png",
+        "Cliff/Cliff_Bottom/Cliff_Bottom_02.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_high_top:1:01",
+        "cliff_bottom:1:02"
+      ]
+    },
+    {
+      "q": 12,
+      "r": -3,
+      "terrain": "CLEAR",
+      "elevation": 2,
+      "tileId": "saxarba/base/base_default_2.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_04.png",
+        "Cliff/Cliff_Top/Cliff_Top_24.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:04",
+        "cliff_top:1:24"
+      ]
+    },
+    {
+      "q": 13,
+      "r": -3,
+      "terrain": "CLEAR",
+      "elevation": 2,
+      "tileId": "saxarba/base/base_default_2.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 14,
+      "r": -4,
+      "terrain": "CLEAR",
+      "elevation": 2,
+      "tileId": "saxarba/base/base_default_2.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 15,
+      "r": -4,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_16.png",
+        "High_Incline/Desert/High_Incline_Top_08.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:16",
+        "incline_high_top:1:08"
+      ]
+    },
+    {
+      "q": 0,
+      "r": 4,
+      "terrain": "CLEAR",
+      "elevation": 2,
+      "tileId": "saxarba/base/base_default_2.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_02.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:02"
+      ]
+    },
+    {
+      "q": 1,
+      "r": 4,
+      "terrain": "CLEAR",
+      "elevation": 2,
+      "tileId": "saxarba/base/base_default_2.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_04.png",
+        "Cliff/Cliff_Top/Cliff_Top_03.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:04",
+        "cliff_top:1:03"
+      ]
+    },
+    {
+      "q": 2,
+      "r": 3,
+      "terrain": "CLEAR",
+      "elevation": -3,
+      "tileId": "saxarba/base/base_default_-3.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_01.png",
+        "High_Incline/Desert/High_Incline_Top_32.png",
+        "Cliff/Cliff_Bottom/Cliff_Bottom_30.png",
+        "saxarba/roads/road36.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "road:1:36",
+        "incline_top:1:01",
+        "incline_high_top:1:32",
+        "cliff_bottom:1:30"
+      ]
+    },
+    {
+      "q": 3,
+      "r": 3,
+      "terrain": "CLEAR",
+      "elevation": -2,
+      "tileId": "saxarba/base/base_default_-2.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_16.png",
+        "Cliff/Cliff_Bottom/Cliff_Bottom_04.png",
+        "saxarba/roads/road36.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "road:1:36",
+        "incline_top:1:16",
+        "cliff_bottom:1:04"
+      ]
+    },
+    {
+      "q": 4,
+      "r": 2,
+      "terrain": "CLEAR",
+      "elevation": -2,
+      "tileId": "saxarba/base/base_default_-2.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_01.png",
+        "High_Incline/Desert/High_Incline_Top_06.png",
+        "Cliff/Cliff_Bottom/Cliff_Bottom_08.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:01",
+        "incline_high_top:1:06",
+        "cliff_bottom:1:08"
+      ]
+    },
+    {
+      "q": 5,
+      "r": 2,
+      "terrain": "CLEAR",
+      "elevation": -1,
+      "tileId": "saxarba/base/base_default_-1.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_04.png",
+        "Cliff/Cliff_Bottom/Cliff_Bottom_03.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:04",
+        "cliff_bottom:1:03"
+      ]
+    },
+    {
+      "q": 6,
+      "r": 1,
+      "terrain": "CLEAR",
+      "elevation": 2,
+      "tileId": "saxarba/base/base_default_2.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_02.png",
+        "Cliff/Cliff_Top/Cliff_Top_16.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:02",
+        "cliff_top:1:16"
+      ]
+    },
+    {
+      "q": 7,
+      "r": 1,
+      "terrain": "CLEAR",
+      "elevation": 2,
+      "tileId": "saxarba/base/base_default_2.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_04.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:04"
+      ]
+    },
+    {
+      "q": 8,
+      "r": 0,
+      "terrain": "CLEAR",
+      "elevation": 2,
+      "tileId": "saxarba/base/base_default_2.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_12.png",
+        "Cliff/Cliff_Top/Cliff_Top_01.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:12",
+        "cliff_top:1:01"
+      ]
+    },
+    {
+      "q": 9,
+      "r": 0,
+      "terrain": "CLEAR",
+      "elevation": -1,
+      "tileId": "saxarba/base/base_default_-1.png",
+      "layers": [
+        "Cliff/Cliff_Bottom/Cliff_Bottom_28.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "cliff_bottom:1:28"
+      ]
+    },
+    {
+      "q": 10,
+      "r": -1,
+      "terrain": "CLEAR",
+      "elevation": -1,
+      "tileId": "saxarba/base/base_default_-1.png",
+      "layers": [
+        "Cliff/Cliff_Bottom/Cliff_Bottom_08.png",
+        "saxarba/roads/road09.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "road:1:9",
+        "cliff_bottom:1:08"
+      ]
+    },
+    {
+      "q": 11,
+      "r": -1,
+      "terrain": "CLEAR",
+      "elevation": -1,
+      "tileId": "saxarba/base/base_default_-1.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_33.png",
+        "High_Incline/Desert/High_Incline_Top_02.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:33",
+        "incline_high_top:1:02"
+      ]
+    },
+    {
+      "q": 12,
+      "r": -2,
+      "terrain": "CLEAR",
+      "elevation": 1,
+      "tileId": "saxarba/base/base_default_1.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_06.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:06"
+      ]
+    },
+    {
+      "q": 13,
+      "r": -2,
+      "terrain": "CLEAR",
+      "elevation": 1,
+      "tileId": "saxarba/base/base_default_1.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_04.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:04"
+      ]
+    },
+    {
+      "q": 14,
+      "r": -3,
+      "terrain": "CLEAR",
+      "elevation": 1,
+      "tileId": "saxarba/base/base_default_1.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_12.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:12"
+      ]
+    },
+    {
+      "q": 15,
+      "r": -3,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_08.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:08"
+      ]
+    },
+    {
+      "q": 0,
+      "r": 5,
+      "terrain": "CLEAR",
+      "elevation": 1,
+      "tileId": "saxarba/base/base_default_1.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_06.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:06"
+      ]
+    },
+    {
+      "q": 1,
+      "r": 5,
+      "terrain": "CLEAR",
+      "elevation": 1,
+      "tileId": "saxarba/base/base_default_1.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_04.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:04"
+      ]
+    },
+    {
+      "q": 2,
+      "r": 4,
+      "terrain": "CLEAR",
+      "elevation": -1,
+      "tileId": "saxarba/base/base_default_-1.png",
+      "layers": [
+        "High_Incline/Desert/High_Incline_Top_16.png",
+        "Cliff/Cliff_Bottom/Cliff_Bottom_08.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_high_top:1:16",
+        "cliff_bottom:1:08"
+      ]
+    },
+    {
+      "q": 3,
+      "r": 4,
+      "terrain": "CLEAR",
+      "elevation": -2,
+      "tileId": "saxarba/base/base_default_-2.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_56.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:56"
+      ]
+    },
+    {
+      "q": 4,
+      "r": 3,
+      "terrain": "CLEAR",
+      "elevation": -2,
+      "tileId": "saxarba/base/base_default_-2.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_02.png",
+        "saxarba/roads/roadF40.png",
+        "saxarba/roads/road40.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "road:1:40",
+        "road_fluff:1",
+        "incline_top:1:02"
+      ]
+    },
+    {
+      "q": 5,
+      "r": 3,
+      "terrain": "CLEAR",
+      "elevation": -2,
+      "tileId": "saxarba/base/base_default_-2.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_36.png",
+        "High_Incline/Desert/High_Incline_Top_01.png",
+        "Cliff/Cliff_Bottom/Cliff_Bottom_02.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:36",
+        "incline_high_top:1:01",
+        "cliff_bottom:1:02"
+      ]
+    },
+    {
+      "q": 6,
+      "r": 2,
+      "terrain": "CLEAR",
+      "elevation": 2,
+      "tileId": "saxarba/base/base_default_2.png",
+      "layers": [
+        "Cliff/Cliff_Top/Cliff_Top_24.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "cliff_top:1:24"
+      ]
+    },
+    {
+      "q": 7,
+      "r": 2,
+      "terrain": "CLEAR",
+      "elevation": 2,
+      "tileId": "saxarba/base/base_default_2.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 8,
+      "r": 1,
+      "terrain": "CLEAR",
+      "elevation": 2,
+      "tileId": "saxarba/base/base_default_2.png",
+      "layers": [
+        "Cliff/Cliff_Top/Cliff_Top_03.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "cliff_top:1:03"
+      ]
+    },
+    {
+      "q": 9,
+      "r": 1,
+      "terrain": "CLEAR",
+      "elevation": -1,
+      "tileId": "saxarba/base/base_default_-1.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_49.png",
+        "Cliff/Cliff_Bottom/Cliff_Bottom_08.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:49",
+        "cliff_bottom:1:08"
+      ]
+    },
+    {
+      "q": 10,
+      "r": 0,
+      "terrain": "CLEAR",
+      "elevation": -1,
+      "tileId": "saxarba/base/base_default_-1.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_33.png",
+        "saxarba/roads/road09.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "road:1:9",
+        "incline_top:1:33"
+      ]
+    },
+    {
+      "q": 11,
+      "r": 0,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 12,
+      "r": -1,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_06.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:06"
+      ]
+    },
+    {
+      "q": 13,
+      "r": -1,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_04.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:04"
+      ]
+    },
+    {
+      "q": 14,
+      "r": -2,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_12.png",
+        "saxarba/vegetation/woods_light_c.png",
+        "saxarba/theme_grass/woods_light_grass_a.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2",
+        "incline_top:1:12"
+      ]
+    },
+    {
+      "q": 15,
+      "r": -2,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 0,
+      "r": 6,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_06.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:06"
+      ]
+    },
+    {
+      "q": 1,
+      "r": 6,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_04.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:04"
+      ]
+    },
+    {
+      "q": 2,
+      "r": 5,
+      "terrain": "CLEAR",
+      "elevation": -1,
+      "tileId": "saxarba/base/base_default_-1.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_16.png",
+        "High_Incline/Desert/High_Incline_Top_08.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:16",
+        "incline_high_top:1:08"
+      ]
+    },
+    {
+      "q": 3,
+      "r": 5,
+      "terrain": "CLEAR",
+      "elevation": -1,
+      "tileId": "saxarba/base/base_default_-1.png",
+      "layers": [
+        "saxarba/roads/roadF10.png",
+        "saxarba/roads/road10.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "road:1:10",
+        "road_fluff:1"
+      ]
+    },
+    {
+      "q": 4,
+      "r": 4,
+      "terrain": "CLEAR",
+      "elevation": -2,
+      "tileId": "saxarba/base/base_default_-2.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_17.png",
+        "saxarba/roads/roadF17.png",
+        "saxarba/roads/road17.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "road:1:17",
+        "road_fluff:1",
+        "incline_top:1:17"
+      ]
+    },
+    {
+      "q": 5,
+      "r": 4,
+      "terrain": "ROUGH",
+      "elevation": -1,
+      "tileId": "saxarba/base/base_default_-1.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_02.png",
+        "saxarba/misc/rough_c.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "rough:1",
+        "incline_top:1:02"
+      ]
+    },
+    {
+      "q": 6,
+      "r": 3,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "High_Incline/Desert/High_Incline_Top_06.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_high_top:1:06"
+      ]
+    },
+    {
+      "q": 7,
+      "r": 3,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "High_Incline/Desert/High_Incline_Top_04.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_high_top:1:04"
+      ]
+    },
+    {
+      "q": 8,
+      "r": 2,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "High_Incline/Desert/High_Incline_Top_12.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_high_top:1:12"
+      ]
+    },
+    {
+      "q": 9,
+      "r": 2,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 10,
+      "r": 1,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "saxarba/roads/road09.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "road:1:9"
+      ]
+    },
+    {
+      "q": 11,
+      "r": 1,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 12,
+      "r": 0,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 13,
+      "r": 0,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 14,
+      "r": -1,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "saxarba/vegetation/woods_light_f.png",
+        "saxarba/theme_grass/woods_light_grass_b.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 15,
+      "r": -1,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 0,
+      "r": 7,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 1,
+      "r": 7,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 2,
+      "r": 6,
+      "terrain": "CLEAR",
+      "elevation": -1,
+      "tileId": "saxarba/base/base_default_-1.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_24.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:24"
+      ]
+    },
+    {
+      "q": 3,
+      "r": 6,
+      "terrain": "CLEAR",
+      "elevation": -1,
+      "tileId": "saxarba/base/base_default_-1.png",
+      "layers": [
+        "saxarba/roads/roadF05.png",
+        "saxarba/roads/road05.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "road:1:5",
+        "road_fluff:1"
+      ]
+    },
+    {
+      "q": 4,
+      "r": 5,
+      "terrain": "CLEAR",
+      "elevation": -2,
+      "tileId": "saxarba/base/base_default_-2.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_59.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:59"
+      ]
+    },
+    {
+      "q": 5,
+      "r": 5,
+      "terrain": "CLEAR",
+      "elevation": -1,
+      "tileId": "saxarba/base/base_default_-1.png",
+      "layers": [
+        "saxarba/roads/road18.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "road:1:18"
+      ]
+    },
+    {
+      "q": 6,
+      "r": 4,
+      "terrain": "CLEAR",
+      "elevation": -1,
+      "tileId": "saxarba/base/base_default_-1.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_07.png",
+        "saxarba/roads/roadF20.png",
+        "saxarba/roads/road20.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "road:1:20",
+        "road_fluff:1",
+        "incline_top:1:07"
+      ]
+    },
+    {
+      "q": 7,
+      "r": 4,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "saxarba/roads/road36.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "road:1:36"
+      ]
+    },
+    {
+      "q": 8,
+      "r": 3,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 9,
+      "r": 3,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 10,
+      "r": 2,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "saxarba/roads/road09.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "road:1:9"
+      ]
+    },
+    {
+      "q": 11,
+      "r": 2,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 12,
+      "r": 1,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 13,
+      "r": 1,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_33.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:33"
+      ]
+    },
+    {
+      "q": 14,
+      "r": 0,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_32.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:32"
+      ]
+    },
+    {
+      "q": 15,
+      "r": 0,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_16.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:16"
+      ]
+    },
+    {
+      "q": 0,
+      "r": 8,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "saxarba/vegetation/woods_light_a.png",
+        "saxarba/theme_grass/woods_light_grass_e.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 1,
+      "r": 8,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_32.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:32"
+      ]
+    },
+    {
+      "q": 2,
+      "r": 7,
+      "terrain": "CLEAR",
+      "elevation": -1,
+      "tileId": "saxarba/base/base_default_-1.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_56.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:56"
+      ]
+    },
+    {
+      "q": 3,
+      "r": 7,
+      "terrain": "CLEAR",
+      "elevation": -1,
+      "tileId": "saxarba/base/base_default_-1.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_16.png",
+        "High_Incline/Desert/High_Incline_Top_32.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:16",
+        "incline_high_top:1:32"
+      ]
+    },
+    {
+      "q": 4,
+      "r": 6,
+      "terrain": "CLEAR",
+      "elevation": -1,
+      "tileId": "saxarba/base/base_default_-1.png",
+      "layers": [
+        "saxarba/roads/roadF34.png",
+        "saxarba/roads/road34.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "road:1:34",
+        "road_fluff:1"
+      ]
+    },
+    {
+      "q": 5,
+      "r": 6,
+      "terrain": "CLEAR",
+      "elevation": -1,
+      "tileId": "saxarba/base/base_default_-1.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_33.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:33"
+      ]
+    },
+    {
+      "q": 6,
+      "r": 5,
+      "terrain": "CLEAR",
+      "elevation": -1,
+      "tileId": "saxarba/base/base_default_-1.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_34.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:34"
+      ]
+    },
+    {
+      "q": 7,
+      "r": 5,
+      "terrain": "CLEAR",
+      "elevation": -1,
+      "tileId": "saxarba/base/base_default_-1.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_55.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:55"
+      ]
+    },
+    {
+      "q": 8,
+      "r": 4,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "saxarba/roads/road36.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "road:1:36"
+      ]
+    },
+    {
+      "q": 9,
+      "r": 4,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "saxarba/roads/road36.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "road:1:36"
+      ]
+    },
+    {
+      "q": 10,
+      "r": 3,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "saxarba/roads/road09.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "road:1:9"
+      ]
+    },
+    {
+      "q": 11,
+      "r": 3,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 12,
+      "r": 2,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_01.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:01"
+      ]
+    },
+    {
+      "q": 13,
+      "r": 2,
+      "terrain": "CLEAR",
+      "elevation": 1,
+      "tileId": "saxarba/base/base_default_1.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 14,
+      "r": 1,
+      "terrain": "CLEAR",
+      "elevation": 1,
+      "tileId": "saxarba/base/base_default_1.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 15,
+      "r": 1,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_24.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:24"
+      ]
+    },
+    {
+      "q": 0,
+      "r": 9,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_33.png",
+        "saxarba/vegetation/woods_light_d.png",
+        "saxarba/theme_grass/woods_light_grass_f.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2",
+        "incline_top:1:33"
+      ]
+    },
+    {
+      "q": 1,
+      "r": 9,
+      "terrain": "CLEAR",
+      "elevation": 1,
+      "tileId": "saxarba/base/base_default_1.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 2,
+      "r": 8,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_49.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:49"
+      ]
+    },
+    {
+      "q": 3,
+      "r": 8,
+      "terrain": "CLEAR",
+      "elevation": 1,
+      "tileId": "saxarba/base/base_default_1.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 4,
+      "r": 7,
+      "terrain": "CLEAR",
+      "elevation": -1,
+      "tileId": "saxarba/base/base_default_-1.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_01.png",
+        "High_Incline/Desert/High_Incline_Top_48.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:01",
+        "incline_high_top:1:48"
+      ]
+    },
+    {
+      "q": 5,
+      "r": 7,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_16.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:16"
+      ]
+    },
+    {
+      "q": 6,
+      "r": 6,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 7,
+      "r": 6,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 8,
+      "r": 5,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 9,
+      "r": 5,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_32.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:32"
+      ]
+    },
+    {
+      "q": 10,
+      "r": 4,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "saxarba/roads/road37.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "road:1:37"
+      ]
+    },
+    {
+      "q": 11,
+      "r": 4,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_01.png",
+        "saxarba/roads/roadF40.png",
+        "saxarba/roads/road40.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "road:1:40",
+        "road_fluff:1",
+        "incline_top:1:01"
+      ]
+    },
+    {
+      "q": 12,
+      "r": 3,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_35.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:35"
+      ]
+    },
+    {
+      "q": 13,
+      "r": 3,
+      "terrain": "CLEAR",
+      "elevation": 1,
+      "tileId": "saxarba/base/base_default_1.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 14,
+      "r": 2,
+      "terrain": "CLEAR",
+      "elevation": 1,
+      "tileId": "saxarba/base/base_default_1.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 15,
+      "r": 2,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_24.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:24"
+      ]
+    },
+    {
+      "q": 0,
+      "r": 10,
+      "terrain": "CLEAR",
+      "elevation": 1,
+      "tileId": "saxarba/base/base_default_1.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 1,
+      "r": 10,
+      "terrain": "CLEAR",
+      "elevation": 1,
+      "tileId": "saxarba/base/base_default_1.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 2,
+      "r": 9,
+      "terrain": "CLEAR",
+      "elevation": 1,
+      "tileId": "saxarba/base/base_default_1.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 3,
+      "r": 9,
+      "terrain": "CLEAR",
+      "elevation": 1,
+      "tileId": "saxarba/base/base_default_1.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_32.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:32"
+      ]
+    },
+    {
+      "q": 4,
+      "r": 8,
+      "terrain": "CLEAR",
+      "elevation": 1,
+      "tileId": "saxarba/base/base_default_1.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 5,
+      "r": 8,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_24.png",
+        "High_Incline/Desert/High_Incline_Top_32.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:24",
+        "incline_high_top:1:32"
+      ]
+    },
+    {
+      "q": 6,
+      "r": 7,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 7,
+      "r": 7,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "High_Incline/Desert/High_Incline_Top_32.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_high_top:1:32"
+      ]
+    },
+    {
+      "q": 8,
+      "r": 6,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_01.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:01"
+      ]
+    },
+    {
+      "q": 9,
+      "r": 6,
+      "terrain": "CLEAR",
+      "elevation": 1,
+      "tileId": "saxarba/base/base_default_1.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_32.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:32"
+      ]
+    },
+    {
+      "q": 10,
+      "r": 5,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_48.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:48"
+      ]
+    },
+    {
+      "q": 11,
+      "r": 5,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_19.png",
+        "saxarba/roads/road09.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "road:1:9",
+        "incline_top:1:19"
+      ]
+    },
+    {
+      "q": 12,
+      "r": 4,
+      "terrain": "CLEAR",
+      "elevation": 1,
+      "tileId": "saxarba/base/base_default_1.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 13,
+      "r": 4,
+      "terrain": "CLEAR",
+      "elevation": 1,
+      "tileId": "saxarba/base/base_default_1.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 14,
+      "r": 3,
+      "terrain": "CLEAR",
+      "elevation": 1,
+      "tileId": "saxarba/base/base_default_1.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 15,
+      "r": 3,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_08.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:08"
+      ]
+    },
+    {
+      "q": 0,
+      "r": 11,
+      "terrain": "CLEAR",
+      "elevation": 1,
+      "tileId": "saxarba/base/base_default_1.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 1,
+      "r": 11,
+      "terrain": "CLEAR",
+      "elevation": 1,
+      "tileId": "saxarba/base/base_default_1.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 2,
+      "r": 10,
+      "terrain": "CLEAR",
+      "elevation": 1,
+      "tileId": "saxarba/base/base_default_1.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_01.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:01"
+      ]
+    },
+    {
+      "q": 3,
+      "r": 10,
+      "terrain": "CLEAR",
+      "elevation": 2,
+      "tileId": "saxarba/base/base_default_2.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 4,
+      "r": 9,
+      "terrain": "CLEAR",
+      "elevation": 1,
+      "tileId": "saxarba/base/base_default_1.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_49.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:49"
+      ]
+    },
+    {
+      "q": 5,
+      "r": 9,
+      "terrain": "CLEAR",
+      "elevation": 2,
+      "tileId": "saxarba/base/base_default_2.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 6,
+      "r": 8,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "High_Incline/Desert/High_Incline_Top_49.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_high_top:1:49"
+      ]
+    },
+    {
+      "q": 7,
+      "r": 8,
+      "terrain": "CLEAR",
+      "elevation": 2,
+      "tileId": "saxarba/base/base_default_2.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 8,
+      "r": 7,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_02.png",
+        "High_Incline/Desert/High_Incline_Top_49.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:02",
+        "incline_high_top:1:49"
+      ]
+    },
+    {
+      "q": 9,
+      "r": 7,
+      "terrain": "CLEAR",
+      "elevation": 2,
+      "tileId": "saxarba/base/base_default_2.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 10,
+      "r": 6,
+      "terrain": "CLEAR",
+      "elevation": 1,
+      "tileId": "saxarba/base/base_default_1.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_16.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:16"
+      ]
+    },
+    {
+      "q": 11,
+      "r": 6,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_10.png",
+        "saxarba/roads/road09.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "road:1:9",
+        "incline_top:1:10"
+      ]
+    },
+    {
+      "q": 12,
+      "r": 5,
+      "terrain": "CLEAR",
+      "elevation": 1,
+      "tileId": "saxarba/base/base_default_1.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 13,
+      "r": 5,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_12.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:12"
+      ]
+    },
+    {
+      "q": 14,
+      "r": 4,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_12.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:12"
+      ]
+    },
+    {
+      "q": 15,
+      "r": 4,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 0,
+      "r": 12,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_07.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:07"
+      ]
+    },
+    {
+      "q": 1,
+      "r": 12,
+      "terrain": "CLEAR",
+      "elevation": 1,
+      "tileId": "saxarba/base/base_default_1.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 2,
+      "r": 11,
+      "terrain": "CLEAR",
+      "elevation": 1,
+      "tileId": "saxarba/base/base_default_1.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_03.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:03"
+      ]
+    },
+    {
+      "q": 3,
+      "r": 11,
+      "terrain": "CLEAR",
+      "elevation": 2,
+      "tileId": "saxarba/base/base_default_2.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 4,
+      "r": 10,
+      "terrain": "CLEAR",
+      "elevation": 2,
+      "tileId": "saxarba/base/base_default_2.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 5,
+      "r": 10,
+      "terrain": "CLEAR",
+      "elevation": 2,
+      "tileId": "saxarba/base/base_default_2.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 6,
+      "r": 9,
+      "terrain": "CLEAR",
+      "elevation": 2,
+      "tileId": "saxarba/base/base_default_2.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 7,
+      "r": 9,
+      "terrain": "CLEAR",
+      "elevation": 2,
+      "tileId": "saxarba/base/base_default_2.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 8,
+      "r": 8,
+      "terrain": "CLEAR",
+      "elevation": 2,
+      "tileId": "saxarba/base/base_default_2.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 9,
+      "r": 8,
+      "terrain": "CLEAR",
+      "elevation": 1,
+      "tileId": "saxarba/base/base_default_1.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_12.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:12"
+      ]
+    },
+    {
+      "q": 10,
+      "r": 7,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_20.png",
+        "High_Incline/Desert/High_Incline_Top_08.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:20",
+        "incline_high_top:1:08"
+      ]
+    },
+    {
+      "q": 11,
+      "r": 7,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "saxarba/roads/roadF17.png",
+        "saxarba/roads/road17.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "road:1:17",
+        "road_fluff:1"
+      ]
+    },
+    {
+      "q": 12,
+      "r": 6,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_04.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:04"
+      ]
+    },
+    {
+      "q": 13,
+      "r": 6,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 14,
+      "r": 5,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 15,
+      "r": 5,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 0,
+      "r": 13,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_02.png",
+        "saxarba/vegetation/woods_light_c.png",
+        "saxarba/theme_grass/woods_light_grass_e.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2",
+        "incline_top:1:02"
+      ]
+    },
+    {
+      "q": 1,
+      "r": 13,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_06.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:06"
+      ]
+    },
+    {
+      "q": 2,
+      "r": 12,
+      "terrain": "CLEAR",
+      "elevation": 1,
+      "tileId": "saxarba/base/base_default_1.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_02.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:02"
+      ]
+    },
+    {
+      "q": 3,
+      "r": 12,
+      "terrain": "CLEAR",
+      "elevation": 1,
+      "tileId": "saxarba/base/base_default_1.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_06.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:06"
+      ]
+    },
+    {
+      "q": 4,
+      "r": 11,
+      "terrain": "CLEAR",
+      "elevation": 2,
+      "tileId": "saxarba/base/base_default_2.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 5,
+      "r": 11,
+      "terrain": "CLEAR",
+      "elevation": 2,
+      "tileId": "saxarba/base/base_default_2.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 6,
+      "r": 10,
+      "terrain": "CLEAR",
+      "elevation": 2,
+      "tileId": "saxarba/base/base_default_2.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 7,
+      "r": 10,
+      "terrain": "CLEAR",
+      "elevation": 2,
+      "tileId": "saxarba/base/base_default_2.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 8,
+      "r": 9,
+      "terrain": "CLEAR",
+      "elevation": 1,
+      "tileId": "saxarba/base/base_default_1.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_28.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:28"
+      ]
+    },
+    {
+      "q": 9,
+      "r": 9,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_12.png",
+        "saxarba/roads/road18.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "road:1:18",
+        "incline_top:1:12"
+      ]
+    },
+    {
+      "q": 10,
+      "r": 8,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_08.png",
+        "saxarba/roads/road18.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "road:1:18",
+        "incline_top:1:08"
+      ]
+    },
+    {
+      "q": 11,
+      "r": 8,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 12,
+      "r": 7,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 13,
+      "r": 7,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "saxarba/vegetation/woods_light_d.png",
+        "saxarba/theme_grass/woods_light_grass_d.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 14,
+      "r": 6,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 15,
+      "r": 6,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 0,
+      "r": 14,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 1,
+      "r": 14,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "saxarba/vegetation/woods_light_c.png",
+        "saxarba/theme_grass/woods_light_grass_a.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 2,
+      "r": 13,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_06.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:06"
+      ]
+    },
+    {
+      "q": 3,
+      "r": 13,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_04.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:04"
+      ]
+    },
+    {
+      "q": 4,
+      "r": 12,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_09.png",
+        "High_Incline/Desert/High_Incline_Top_06.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:09",
+        "incline_high_top:1:06"
+      ]
+    },
+    {
+      "q": 5,
+      "r": 12,
+      "terrain": "CLEAR",
+      "elevation": 1,
+      "tileId": "saxarba/base/base_default_1.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_06.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:06"
+      ]
+    },
+    {
+      "q": 6,
+      "r": 11,
+      "terrain": "CLEAR",
+      "elevation": 2,
+      "tileId": "saxarba/base/base_default_2.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 7,
+      "r": 11,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_16.png",
+        "High_Incline/Desert/High_Incline_Top_12.png",
+        "saxarba/roads/roadF10.png",
+        "saxarba/roads/road10.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "road:1:10",
+        "road_fluff:1",
+        "incline_top:1:16",
+        "incline_high_top:1:12"
+      ]
+    },
+    {
+      "q": 8,
+      "r": 10,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_04.png",
+        "High_Incline/Desert/High_Incline_Top_08.png",
+        "saxarba/roads/road18.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "road:1:18",
+        "incline_top:1:04",
+        "incline_high_top:1:08"
+      ]
+    },
+    {
+      "q": 9,
+      "r": 10,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 10,
+      "r": 9,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 11,
+      "r": 9,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 12,
+      "r": 8,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 13,
+      "r": 8,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "saxarba/vegetation/woods_light_a.png",
+        "saxarba/theme_grass/woods_light_grass_e.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 14,
+      "r": 7,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 15,
+      "r": 7,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 0,
+      "r": 15,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "saxarba/vegetation/woods_light_e.png",
+        "saxarba/theme_grass/woods_light_grass_c.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 1,
+      "r": 15,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 2,
+      "r": 14,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "saxarba/vegetation/woods_heavy_c.png",
+        "saxarba/theme_grass/woods_heavy_grass_c.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:2",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 3,
+      "r": 14,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 4,
+      "r": 13,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_02.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:02"
+      ]
+    },
+    {
+      "q": 5,
+      "r": 13,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_06.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:06"
+      ]
+    },
+    {
+      "q": 6,
+      "r": 12,
+      "terrain": "CLEAR",
+      "elevation": 1,
+      "tileId": "saxarba/base/base_default_1.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_04.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:04"
+      ]
+    },
+    {
+      "q": 7,
+      "r": 12,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_08.png",
+        "saxarba/roads/road09.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "road:1:9",
+        "incline_top:1:08"
+      ]
+    },
+    {
+      "q": 8,
+      "r": 11,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 9,
+      "r": 11,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 10,
+      "r": 10,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 11,
+      "r": 10,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 12,
+      "r": 9,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 13,
+      "r": 9,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 14,
+      "r": 8,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "saxarba/vegetation/woods_light_d.png",
+        "saxarba/theme_grass/woods_light_grass_d.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 15,
+      "r": 8,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 0,
+      "r": 16,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 1,
+      "r": 16,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 2,
+      "r": 15,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "saxarba/vegetation/woods_light_c.png",
+        "saxarba/theme_grass/woods_light_grass_c.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 3,
+      "r": 15,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 4,
+      "r": 14,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "saxarba/vegetation/woods_light_d.png",
+        "saxarba/theme_grass/woods_light_grass_b.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 5,
+      "r": 14,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 6,
+      "r": 13,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "Incline/Desert/Incline_Top_04.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "incline_top:1:04"
+      ]
+    },
+    {
+      "q": 7,
+      "r": 13,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "saxarba/roads/road09.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "road:1:9"
+      ]
+    },
+    {
+      "q": 8,
+      "r": 12,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 9,
+      "r": 12,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 10,
+      "r": 11,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 11,
+      "r": 11,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 12,
+      "r": 10,
+      "terrain": "WOODS",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [
+        "saxarba/vegetation/woods_light_c.png",
+        "saxarba/theme_grass/woods_light_grass_c.png",
+        "saxarba/vegetation/woods_ultra.png"
+      ],
+      "waterDepth": 0,
+      "tags": [
+        "woods:1",
+        "foliage_elev:2"
+      ]
+    },
+    {
+      "q": 13,
+      "r": 10,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 14,
+      "r": 9,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    },
+    {
+      "q": 15,
+      "r": 9,
+      "terrain": "CLEAR",
+      "elevation": 0,
+      "tileId": "saxarba/base/base_default_0.png",
+      "layers": [],
+      "waterDepth": 0,
+      "tags": []
+    }
+  ]
+}

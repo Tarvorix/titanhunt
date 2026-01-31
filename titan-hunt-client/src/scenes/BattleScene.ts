@@ -1,10 +1,11 @@
 // Battle scene - main game view with hex grid and units
 
 import Phaser from 'phaser';
-import { Hex, Unit, AtlasManifest, Facing, facingToSpriteDirection } from '../types';
+import { Hex, Unit, AtlasManifest, MapData, MapTile, Facing, facingToSpriteDirection } from '../types';
 import { hexToPixel, pixelToHex, drawHex, hexKey, hexEquals, HEX_SIZE, hexNeighbors } from '../hex/HexUtils';
 
 // Graphics layer depths
+const DEPTH_TERRAIN = 0;
 const DEPTH_GRID = 1;
 const DEPTH_REACHABLE = 3;
 const DEPTH_PATH = 4;
@@ -20,6 +21,7 @@ const COLOR_PATH = 0xffff00;
 
 interface BattleSceneData {
   manifest: AtlasManifest;
+  mapData: MapData | null;
 }
 
 export class BattleScene extends Phaser.Scene {
@@ -33,14 +35,19 @@ export class BattleScene extends Phaser.Scene {
   private currentPath: Hex[] = [];
   private hoveredHex: Hex | null = null;
 
+  // Map data
+  private mapData: MapData | null = null;
+  private tileMap: Map<string, MapTile> = new Map();
+
   // Graphics layers
   private gridGraphics!: Phaser.GameObjects.Graphics;
   private reachableGraphics!: Phaser.GameObjects.Graphics;
   private pathGraphics!: Phaser.GameObjects.Graphics;
   private selectionGraphics!: Phaser.GameObjects.Graphics;
 
-  // Sprite container
+  // Sprite containers
   private unitSprites: Map<number, Phaser.GameObjects.Sprite> = new Map();
+  private terrainSprites: Phaser.GameObjects.Sprite[] = [];
 
   // Camera controls
   private isDragging = false;
@@ -68,6 +75,19 @@ export class BattleScene extends Phaser.Scene {
 
   init(data: BattleSceneData): void {
     console.log('BattleScene init with manifest:', data.manifest);
+    this.mapData = data.mapData;
+
+    if (this.mapData) {
+      console.log('Map data loaded:', this.mapData.name);
+      this.mapWidth = this.mapData.width;
+      this.mapHeight = this.mapData.height;
+
+      // Build tile lookup map
+      this.tileMap.clear();
+      for (const tile of this.mapData.tiles) {
+        this.tileMap.set(hexKey({ q: tile.q, r: tile.r }), tile);
+      }
+    }
   }
 
   create(): void {
@@ -86,6 +106,9 @@ export class BattleScene extends Phaser.Scene {
 
     // Generate map hexes
     this.generateMap();
+
+    // Render terrain tiles (if map data available)
+    this.renderTerrain();
 
     // Draw the hex grid
     this.drawGrid();
@@ -107,36 +130,107 @@ export class BattleScene extends Phaser.Scene {
   }
 
   private generateMap(): void {
-    // Generate a rectangular hex map
-    for (let r = 0; r < this.mapHeight; r++) {
-      const rOffset = Math.floor(r / 2);
-      for (let q = -rOffset; q < this.mapWidth - rOffset; q++) {
-        this.validHexes.add(hexKey({ q, r }));
+    this.validHexes.clear();
+
+    if (this.mapData) {
+      // Use map data tiles
+      for (const tile of this.mapData.tiles) {
+        this.validHexes.add(hexKey({ q: tile.q, r: tile.r }));
+      }
+      console.log(`Loaded map with ${this.validHexes.size} hexes from ${this.mapData.name}`);
+    } else {
+      // Generate a rectangular hex map (fallback)
+      for (let r = 0; r < this.mapHeight; r++) {
+        const rOffset = Math.floor(r / 2);
+        for (let q = -rOffset; q < this.mapWidth - rOffset; q++) {
+          this.validHexes.add(hexKey({ q, r }));
+        }
+      }
+      console.log(`Generated map with ${this.validHexes.size} hexes`);
+    }
+  }
+
+  private renderTerrain(): void {
+    // Clear existing terrain sprites
+    for (const sprite of this.terrainSprites) {
+      sprite.destroy();
+    }
+    this.terrainSprites = [];
+
+    if (!this.mapData) return;
+
+    // Render each tile
+    for (const tile of this.mapData.tiles) {
+      const pos = this.hexToWorld({ q: tile.q, r: tile.r });
+
+      // Render base tile
+      if (tile.tileId) {
+        const key = 'hex_' + tile.tileId.replace(/[\/\.]/g, '_');
+        if (this.textures.exists(key)) {
+          const sprite = this.add.sprite(pos.x, pos.y, key);
+          sprite.setDepth(DEPTH_TERRAIN);
+          sprite.setOrigin(0.5, 0.5);
+          // Scale terrain tiles to match hex size (84px tiles to HEX_SIZE)
+          const scale = (HEX_SIZE * 2) / 84;
+          sprite.setScale(scale);
+          this.terrainSprites.push(sprite);
+        }
+      }
+
+      // Render overlay layers
+      for (const layer of tile.layers) {
+        const layerKey = 'hex_' + layer.replace(/[\/\.]/g, '_');
+        if (this.textures.exists(layerKey)) {
+          const layerSprite = this.add.sprite(pos.x, pos.y, layerKey);
+          layerSprite.setDepth(DEPTH_TERRAIN + 0.1);
+          layerSprite.setOrigin(0.5, 0.5);
+          const scale = (HEX_SIZE * 2) / 84;
+          layerSprite.setScale(scale);
+          this.terrainSprites.push(layerSprite);
+        }
       }
     }
-    console.log(`Generated map with ${this.validHexes.size} hexes`);
+
+    console.log(`Rendered ${this.terrainSprites.length} terrain sprites`);
   }
 
   private drawGrid(): void {
     this.gridGraphics.clear();
+
+    const hasTerrain = this.mapData !== null;
 
     for (const key of this.validHexes) {
       const [q, r] = key.split(',').map(Number);
       const hex = { q, r };
       const pos = this.hexToWorld(hex);
 
-      // Draw hex outline
-      drawHex(
-        this.gridGraphics,
-        pos.x,
-        pos.y,
-        HEX_SIZE,
-        0x1a1a2e, // Fill color (dark blue-gray)
-        0.8,
-        COLOR_GRID_VALID,
-        0.5,
-        1
-      );
+      if (hasTerrain) {
+        // Only draw hex outline when terrain is present
+        drawHex(
+          this.gridGraphics,
+          pos.x,
+          pos.y,
+          HEX_SIZE,
+          0x000000, // No fill
+          0.0,      // Transparent fill
+          COLOR_GRID_VALID,
+          0.3,      // Subtle outline
+          1
+        );
+      } else {
+        // Draw hex with fill when no terrain
+        drawHex(
+          this.gridGraphics,
+          pos.x,
+          pos.y,
+          HEX_SIZE,
+          0x1a1a2e, // Fill color (dark blue-gray)
+          0.8,
+          COLOR_GRID_VALID,
+          0.5,
+          1
+        );
+      }
     }
   }
 
